@@ -3,15 +3,16 @@ using UnityEngine;
 
 namespace Code.Player.Code
 {
-    public class PlayerController : IPlayerController
+    public class PlayerController : UnitClass//, IPlayerController
     {
-        private IPlayerModel _playerModel;
+    /*    private IPlayerModel _playerModel;
         private IPlayerView _playerView;
 
         public PlayerController(IPlayerView playerView, IPlayerModel playerModel)
         {
             _playerModel = playerModel;
             _playerView = playerView;
+          
         }
         public void OnUpdate()
         {
@@ -25,6 +26,6 @@ namespace Code.Player.Code
             _playerView.MoveDirection *= _playerModel.Speed;
             _playerView.MovementControl.Move(_playerView.MoveDirection * Time.deltaTime);
             _playerView.Transform.Rotate(0, Input.GetAxis("Horizontal"), 0);
-        }
+        }*/
     }
 }
