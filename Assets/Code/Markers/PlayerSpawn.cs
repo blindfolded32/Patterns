@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Code.Player
+namespace Code.Markers
 {
     public class PlayerSpawn : MonoBehaviour
     {

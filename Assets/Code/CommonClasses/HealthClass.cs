@@ -1,15 +1,15 @@
 
 public class Health 
 {
-    public float MaxHP { get; }
-    public float CurrentHP { get; private set; }
+    public float MaxHp { get; }
+    public float CurrentHp { get; private set; }
 
     public Health(float hp, float current)
     {
-        MaxHP = hp;
-        CurrentHP = current;
+        MaxHp = hp;
+        CurrentHp = current;
     }
 
-    public void ChangeHP(float value) => CurrentHP = value;
+    public void ChangeHp(float value) => CurrentHp = value;
    
 }

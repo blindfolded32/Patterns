@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Code.Player.Code
 {
-    public class PlayerView : MonoBehaviour,IPlayerView
+    public class PlayerView : UnitClass,IPlayerView
     {
         public Transform Transform { get;  set; }
         public Vector3 MoveDirection { get; set; }
@@ -16,12 +16,6 @@ namespace Code.Player.Code
             Transform = transform;
             MovementControl = GetComponent<CharacterController>();
         }
-
-        public void Movement()
-        {
-            throw new System.NotImplementedException();
-        }
-
         public void ChildCourutine(IEnumerator enumerator) => StartCoroutine(enumerator);
     }
 }

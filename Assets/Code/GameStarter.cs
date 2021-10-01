@@ -1,28 +1,24 @@
 using Code.Player;
-using Code.Player.Code;
-using Code.Player.Interface;
+using Code.Markers;
 using UnityEngine;
 
-public class GameStarter : MonoBehaviour
+namespace Code
 {
-    
-    // Start is called before the first frame update
-    void Start()
+    public class GameStarter : MonoBehaviour
     {
-        
-     //   UnitClass.CreatePlayer(new Health(100.0f, 100.0f),FindObjectOfType<PlayerSpawn>().transform.position);
-        IUnitFactory unitFactory = new UnitFactory();
-        unitFactory.Create(new Health(100.0f, 100.0f),FindObjectOfType<PlayerSpawn>().transform.position);
+        private IUnitFactory _unitFactory;
+        // Start is called before the first frame update
+        private void Start()
+        {
+            _unitFactory = new UnitFactory();
+            UnitClass.Factory = _unitFactory;
+            UnitClass.Factory.Create(new Health(100.0f, 100.0f),FindObjectOfType<PlayerSpawn>().transform.position);
+        }
 
-        UnitClass.Factory = unitFactory;
-        UnitClass.Factory.Create(new Health(100.0f, 100.0f),FindObjectOfType<PlayerSpawn>().transform.position);
-       
-     
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        private void Update()
+        {
+            _unitFactory.OnUpdate();
+        }
     }
 }
