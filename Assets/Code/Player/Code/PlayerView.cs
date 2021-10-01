@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Code.Player.Code
 {
-    public class PlayerView : MonoBehaviour,IPlayerView
+    public class PlayerView : UnitClass,IPlayerView
     {
         public Transform Transform { get;  set; }
         public Vector3 MoveDirection { get; set; }

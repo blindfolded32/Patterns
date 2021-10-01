@@ -5,7 +5,7 @@ namespace Code.Player.Code
 {
     public struct PlayerModel : IPlayerModel
     {
-        public int HP { get; set; }
+        public int Hp { get; set; }
         public float Speed { get; set; }
 
         public PlayerModel(float speed) : this() => Speed = speed;

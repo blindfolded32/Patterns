@@ -10,27 +10,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C7864A0E-AEB2-4B2A-999F-B177623D54B4/59/fb14c77c/Resources.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/CommonInterface/IUnit.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/PlayerFabric.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CommonClasses/UnitClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/CommonInterface/IUnitFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/PlayerSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IUnitFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/UnitClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/CommonInterface/IUnitFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/IUnitFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/UnitFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/UnitClass.cs" />
       </list>
     </option>
   </component>
@@ -54,19 +52,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13980">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13980" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13980">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13980" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -83,6 +81,7 @@
       <updated>1632932516066</updated>
       <workItem from="1632932577866" duration="3337000" />
       <workItem from="1633023035873" duration="7105000" />
+      <workItem from="1633071471028" duration="1763000" />
     </task>
     <servers />
   </component>
@@ -159,9 +158,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="2517" height="379" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1633030200263" />
-    <state x="470" y="26" key="RiderGenerateDialog" timestamp="1632934520180">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="705" y="40" key="RiderGenerateDialog" timestamp="1633071753237">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="470" y="26" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1632934520180" />
+    <state x="705" y="40" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633071753237" />
   </component>
 </project>

@@ -2,6 +2,6 @@
 {
     public interface IPlayerController
     {
-        void OnUpdate();
+        void Move();
     }
 }
