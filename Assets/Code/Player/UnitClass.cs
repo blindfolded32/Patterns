@@ -1,10 +1,9 @@
 ﻿using Code.Player.Code;
-using Code.Player.Interface;
 using UnityEngine;
 
 namespace Code.Player
 {
-    public abstract class UnitClass:MonoBehaviour
+    public abstract class UnitClass : MonoBehaviour
     {
         public static IUnitFactory Factory;
         public static PlayerView PlayerView;

@@ -10,8 +10,24 @@
           <e p="CommonClasses" t="Include">
             <e p="HealthClass.cs" t="Include" />
           </e>
+          <e p="Ememy" t="Include">
+            <e p="Code" t="Include">
+              <e p="EmenyModel.cs" t="Include" />
+              <e p="RangedController.cs" t="Include" />
+              <e p="RangedEnemyView.cs" t="Include" />
+            </e>
+            <e p="EnemyClass.cs" t="Include" />
+            <e p="EnemyFactory.cs" t="Include" />
+            <e p="IEnemyFactory.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IEmenyModel.cs" t="Include" />
+              <e p="IRangedController.cs" t="Include" />
+              <e p="IRangedEnemyView.cs" t="Include" />
+            </e>
+          </e>
           <e p="GameStarter.cs" t="Include" />
           <e p="Markers" t="Include">
+            <e p="CoreMarker.cs" t="Include" />
             <e p="PlayerSpawn.cs" t="Include" />
           </e>
           <e p="Player" t="Include">

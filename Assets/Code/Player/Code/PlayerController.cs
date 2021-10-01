@@ -1,12 +1,13 @@
 ﻿using Code.Player.Interface;
 using UnityEngine;
-
 namespace Code.Player.Code
 {
+    [RequireComponent(typeof(CharacterController)), RequireComponent(typeof(Rigidbody))]
     public class PlayerController : IPlayerController
     {
-        private IPlayerModel _playerModel;
-        private IPlayerView _playerView;
+
+        private readonly IPlayerModel _playerModel;
+        private readonly IPlayerView _playerView;
 
         public PlayerController(IPlayerView playerView, IPlayerModel playerModel)
         {

@@ -16,12 +16,6 @@ namespace Code.Player.Code
             Transform = transform;
             MovementControl = GetComponent<CharacterController>();
         }
-
-        public void Movement()
-        {
-            throw new System.NotImplementedException();
-        }
-
         public void ChildCourutine(IEnumerator enumerator) => StartCoroutine(enumerator);
     }
 }

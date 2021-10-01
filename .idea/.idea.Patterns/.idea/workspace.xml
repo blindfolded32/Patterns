@@ -14,21 +14,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/CommonInterface/IUnit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/PlayerFabric.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CommonClasses/UnitClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/PlayerSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IUnitFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CommonInterface/IUnitFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/IUnitFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/UnitFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Interfaces/IEmenyModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/EmenyModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Interface/IPlayerView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player/Code/PlayerView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Interfaces/IRangedController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Interfaces/IRangedEnemyView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/CoreMarker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/PlayerSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/RangedController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/IEnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/RangedEnemyView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/EnemyClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/UnitClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/EnemyFactory.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +93,11 @@
       <workItem from="1632932577866" duration="3337000" />
       <workItem from="1633023035873" duration="7105000" />
       <workItem from="1633071471028" duration="1763000" />
+      <workItem from="1633073276072" duration="228000" />
+      <workItem from="1633073598342" duration="171000" />
+      <workItem from="1633074718260" duration="679000" />
+      <workItem from="1633075511806" duration="56000" />
+      <workItem from="1633075864834" duration="1864000" />
     </task>
     <servers />
   </component>
@@ -158,10 +174,14 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="2517" height="379" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1633030200263" />
-    <state x="705" y="40" key="RiderGenerateDialog" timestamp="1633071753237">
+    <state x="705" y="40" key="RiderGenerateDialog" timestamp="1633075265762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="470" y="26" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1632934520180" />
-    <state x="705" y="40" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633071753237" />
+    <state x="705" y="40" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633075265762" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1633076396141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1633076396141" />
   </component>
 </project>

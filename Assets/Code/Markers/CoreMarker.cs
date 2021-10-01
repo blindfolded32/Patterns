@@ -2,7 +2,7 @@
 
 namespace Code.Markers
 {
-    public class PlayerSpawn : MonoBehaviour
+    public class CoreMarker : MonoBehaviour
     {
         
     }
