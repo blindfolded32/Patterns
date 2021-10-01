@@ -8,8 +8,6 @@ namespace Code.Player.Interface
         Transform Transform { get; }
         Vector3 MoveDirection { get; set; }
         CharacterController MovementControl { get; set; }
-
-        void Movement();
         void ChildCourutine(IEnumerator enumerator);
     }
 }
