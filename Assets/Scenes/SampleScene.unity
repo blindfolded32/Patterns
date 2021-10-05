@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1468,6 +1468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172224542}
+  - component: {fileID: 172224543}
   m_Layer: 0
   m_Name: SP1
   m_TagString: Untagged
@@ -1489,6 +1490,18 @@ Transform:
   m_Father: {fileID: 925816111}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &172224543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172224541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a226a03ec9498ebf67e4cd75288954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &177807889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,6 +1702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184975424}
+  - component: {fileID: 184975425}
   m_Layer: 0
   m_Name: SP2
   m_TagString: Untagged
@@ -1710,6 +1724,18 @@ Transform:
   m_Father: {fileID: 925816111}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &184975425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184975423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a226a03ec9498ebf67e4cd75288954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193578067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5675,6 +5701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 738574437}
+  - component: {fileID: 738574438}
   m_Layer: 0
   m_Name: SP3
   m_TagString: Untagged
@@ -5696,6 +5723,18 @@ Transform:
   m_Father: {fileID: 925816111}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738574438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738574436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a226a03ec9498ebf67e4cd75288954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &741741017
 GameObject:
   m_ObjectHideFlags: 0
