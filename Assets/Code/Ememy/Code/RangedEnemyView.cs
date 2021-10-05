@@ -14,14 +14,21 @@ namespace Code.Ememy.Code
         public Vector3 Destination { get; set; }
         public void ChildCourutine(IEnumerator enumerator) => StartCoroutine(enumerator);
         public NavMeshAgent navMeshAgent;
+        private IEnemyAttack _attack;
         private void Awake()
         {
             Transform = transform;
+            _attack = new RangedEnemyAttack();
+        }
+
+        private void Start()
+        {
+            navMeshAgent.destination = Destination;
         }
 
         private void Update()
         {
-            navMeshAgent.destination = Destination;
+            if (Input.GetKey(KeyCode.F)) _attack.Attack(gameObject);
         }
     }
 }

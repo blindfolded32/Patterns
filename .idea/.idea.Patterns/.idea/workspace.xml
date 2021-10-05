@@ -34,7 +34,6 @@
         <option value="$PROJECT_DIR$/Assets/Code/Markers/CoreMarker.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Markers/PlayerSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/RangedController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/RangedEnemyView.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Ememy/EnemyClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Player/UnitClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Markers/EnemySpawn.cs" />
@@ -42,6 +41,9 @@
         <option value="$PROJECT_DIR$/Assets/Code/Ememy/IEnemyFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Ememy/EnemyFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Ememy/Interfaces/IAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Interfaces/IEnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/RangedEnemyView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Markers/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Ememy/Code/RangedEnemyAttack.cs" />
       </list>
     </option>
@@ -66,10 +68,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12792">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12792" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -103,6 +105,7 @@
       <workItem from="1633075864834" duration="1864000" />
       <workItem from="1633113012341" duration="1201000" />
       <workItem from="1633447807424" duration="3841000" />
+      <workItem from="1633459883993" duration="1812000" />
     </task>
     <servers />
   </component>
@@ -206,23 +209,6 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1633076396141" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/Ememy/EnemyFactory.cs</url>
-          <line>16</line>
-          <properties documentPath="C:\Users\User\Documents\GitHub\Patterns\Assets\Code\Ememy\EnemyFactory.cs" initialLine="16">
-            <startOffsets>
-              <option value="595" />
-            </startOffsets>
-            <endOffsets>
-              <option value="671" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#UnityEngine.Component" memberName="gameObject" />

@@ -1,7 +1,9 @@
-﻿namespace Code.Ememy.Interfaces
+﻿using UnityEngine;
+
+namespace Code.Ememy.Interfaces
 {
     public interface IEnemyAttack
     {
-        void Attack();
+        void Attack(GameObject spawner);
     }
 }

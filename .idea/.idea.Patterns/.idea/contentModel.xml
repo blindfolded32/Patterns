@@ -194,6 +194,7 @@
           </e>
           <e p="GameStarter.cs" t="Include" />
           <e p="Markers" t="Include">
+            <e p="Bullet.cs" t="Include" />
             <e p="CoreMarker.cs" t="Include" />
             <e p="EnemySpawn.cs" t="Include" />
             <e p="PlayerSpawn.cs" t="Include" />
